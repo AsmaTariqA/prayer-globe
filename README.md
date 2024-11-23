@@ -1,25 +1,24 @@
-# World Happiness Score
-A fairly simple app made with react and react-globe.gl which uses Three.js under to visualize
-worlds happiness and other related social data. based on the example provided by react-globe.gl. check them
-out [here](https://github.com/vasturiano/react-globe.gl).
+# Prayer Globe
+Prayer Globe is a web application that provides a visual representation of prayer times around the globe. It displays prayer times based on location and allows users to interact with a 3D globe that shows the global prayer times for different cities and countries.
 
-# About the dataset
-The World Happiness Report is a publication of the United Nations Sustainable Development Solutions Network. It contains articles and rankings of national happiness, based on respondent ratings of their own lives, which the report also correlates with various (quality of) life factors. As of March 2022, Finland had been ranked the happiest country in the world five times in a row.
+# Features
+Displays prayer times for various cities and countries.
+Interactive 3D globe to explore different locations.
+User-friendly interface with modern design.
+Real-time updates for prayer times.
+Built with React, WebGL, and other modern web technologies.
+Tech Stack
+Frontend: React.js, WebGL, Three.js
+Styling: CSS
+Hosting: Netlify
+APIs: External API for fetching prayer times
 
-The report primarily uses data from the Gallup World Poll. Each annual report is available to the public to download on the World Happiness Report website.The Editors of the 2020 report are John F. Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan-Emmanuel De Neve. Associate Editors are Lara Aknin, Shun Wang, and Haifang Huang. Source : [Wikipedia](https://en.wikipedia.org/wiki/World_Happiness_Report)
 
->NOTE: Certain Data Points [in the dataset](https://www.kaggle.com/datasets/shivkumarganesh/world-happiness-report-20152022) are available for Certain Years and others are not. So you may find a lot of Columns with plenty of empty data, but I have written a simple Java program to process and combine the data needed to plote and show the report in a map into a json file.So you could check and make a better modifications [here](https://github.com/YohannesTz/JavaDataManuplater.git).
 
-# Preivew
-![preview](/globe-preview.png)
-
-[Live Preview](https://world-happines-score.netlify.app/) [Video Preview](https://youtu.be/4gncZzITIiY)
-
-## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
